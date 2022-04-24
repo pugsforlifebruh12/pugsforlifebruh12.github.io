@@ -117,3 +117,14 @@ body {
 .doggo {
     transform: translateX(50%);
 }
+/* Navbar */
+.navbar {
+    float: right;
+    width: 300px;
+    background-color: black;
+}
+.navtext {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.041);
+    text-decoration: none;
+}

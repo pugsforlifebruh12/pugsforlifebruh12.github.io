@@ -1,0 +1,92 @@
+
+/* Adds COLOR to the RGB divs*/
+.reddiv {
+    background-color: red;
+    width: 90px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.greendiv {
+    background-color: green;
+    width: 90px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.bluediv {
+    background-color: blue;
+    width: 90px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.reddivfs {
+    background-color: red;
+    width: 90px;
+    height: 200px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.greendivfs {
+    background-color: green;
+    width: 90px;
+    height: 200px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.bluedivfs {
+    background-color: blue;
+    width: 90px;
+    height: 200px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.rpergb {
+    color: red;
+}
+.gpergb {
+    color: green;
+}
+.bpergb {
+    color: blue;
+}
+/* Makes RGB divs bigger */
+.reddiv:hover {
+    width: 100%;
+}
+.greendiv:hover {
+    width: 100%;
+}
+.bluediv:hover {
+    width: 100%;
+}
+.reddivfs:hover {
+    width: 100%;
+}
+.greendivfs:hover {
+    width: 100%;
+}
+.bluedivfs:hover {
+    width: 100%;
+}
+
+/* Removes annoying margin and makes the text bigger */
+.pinrgbdiv {
+    margin: 0;
+    font-size: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}

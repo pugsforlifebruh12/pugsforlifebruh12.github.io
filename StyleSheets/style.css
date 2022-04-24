@@ -1,0 +1,119 @@
+/* Title Related things */
+.titlediv {
+    width: 230px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.titleimage {
+    border-radius: 50%;
+}
+.titlediv:hover {
+    transform: scale(1.8)
+}
+.title {
+    float: right;
+    color: white;
+}
+/* Misc. things*/
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(../img/BG.gif);
+    background-size: 100%;
+    font-family: 'Calibri'
+}
+
+.Margin {
+    margin-left: 3%
+}
+
+.idkwhattocallthis {
+    color: rgb(255, 0, 119);
+}
+/* Button Styling*/
+.playbutton {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 4px double red;
+    text-align: center;
+    font-size: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.playbutton:hover {
+    background-color: orangered;
+    transform: scale(1.5);
+}
+.open {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 4px double rgb(0, 129, 90);
+    text-align: center;
+    font-size: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.open:hover {
+    background-color: rgb(0, 255, 64);
+    transform: scale(1.5);
+    color: black;
+}
+/* Piture related things (not title) */
+.spin {
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+.logoeffect {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    filter: saturate(0%) brightness(10000%)
+    
+}
+.logoeffect:hover {
+    filter: invert(0%);
+    transform:scale(1.5)
+}
+.NoBright {
+    filter: invert(0%);
+}
+#Discord {
+    filter: saturate(0%) brightness(10000%)
+}
+#Discord:hover {
+    filter: invert(0%);
+}
+.grow {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.5) translateX(100%);
+}
+/* Easter egg 2 */
+.doggo {
+    transform: translateX(50%);
+}
